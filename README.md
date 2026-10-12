@@ -21,7 +21,7 @@ Testing is limited to this authorized lab environment only.
 | 3 | Cross-Site Request Forgery (CSRF) | **Rola Refaat Eldaba** |
 | 4 | Server-Side Request Forgery (SSRF) | **Samir Samir Eid Rady** |
 | 5 | File Upload Vulnerabilities | **Ola Ayman Shoukry Abdelsalam** |
-| 6 | Path Traversal & IDOR/BOLA | **Abanoub Ebid Thapt** (Team Leader) |
+| 6 | Path Traversal & IDOR/BOLA | **Abanoub Ebid Thapt** |
 
 Each member tests their assigned vulnerability class across the lab, documents findings using the team's Individual Testing Workpaper template, and submits evidence for review before it is added to the final report.
 
@@ -51,21 +51,6 @@ Testing will be limited to the authorized OWASP Juice Shop lab environment. No s
 - API Testing Results
 - Final Penetration Testing Report
 - Remediation & Retest Checklist
-
-## Repository Structure
-
-```
-web-api-penetration-test/
-├── README.md
-├── team/              # Members, roles, and workpapers
-├── week-1/            # Application map, Burp file, auth flow, test plan
-├── week-2/            # Input vulnerability findings and evidence
-├── week-3/            # API, auth, access control findings
-├── week-4/            # Final report, retest, demo
-└── evidence/          # Evidence files, organized by finding ID
-```
-
-> ⚠️ Do not commit real passwords, valid cookies/session tokens, or personal data to this repository. Use test accounts and lab-generated data only.
 
 ## Team
 
