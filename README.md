@@ -1,72 +1,70 @@
-# Web Application & API Penetration Testing
+# Web Application & API Penetration Test — OWASP Juice Shop
 
-**Team Security Assessment Project | OWASP Juice Shop**
-
-A collaborative security assessment focused on identifying, validating, and documenting web application and API vulnerabilities in an authorized testing environment.
+A team-based penetration testing project focused on testing web application and API vulnerabilities using OWASP Juice Shop in an authorized lab environment.
 
 ## Project Overview
 
-The objective of this project is to assess the security of OWASP Juice Shop, investigate assigned vulnerability classes, collect reproducible evidence, and provide practical remediation recommendations.
+**Objective:** Identify and validate security vulnerabilities, document evidence, assess potential impact, and recommend remediation.
 
-- **Target:** OWASP Juice Shop
-- **Environment:** Local Docker Lab
-- **Assessment Type:** Web Application & API Penetration Testing
-- **Documentation:** Individual Testing Workpapers and Consolidated Report
+**Target:** OWASP Juice Shop (local lab environment)
 
-## Team & Responsibilities
+**Project Type:** Educational Team Project
 
-Each team member is responsible for testing an assigned vulnerability class, documenting the methodology and evidence, and submitting validated findings for inclusion in the final report.
+## Team Members & Responsibilities
 
-| # | Vulnerability | Assigned To | LinkedIn | GitHub |
-|---|---|---|---|---|
-| 1 | SQL Injection (SQLi) | Mina Nabil Shokry Habib | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
-| 2 | Cross-Site Scripting (XSS) | Sayed Ahmed Mohamed Sayed | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
-| 3 | Cross-Site Request Forgery (CSRF) | Rola Refaat Eldaba | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
-| 4 | Server-Side Request Forgery (SSRF) | Samir Samir Eid Rady | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
-| 5 | File Upload Vulnerabilities | Ola Ayman Shoukry Abdelsalam | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
-| 6 | Path Traversal & IDOR/BOLA | Abanoub Ebid Thapt (Team Leader) | [LinkedIn](https://www.linkedin.com/in/abanoub-ebid-b2a04b230/) | [GitHub](https://github.com/abanoubebid) |
+Each team member is responsible for testing an assigned vulnerability, documenting findings, collecting evidence, and recommending appropriate fixes.
+
+| Team Member | Assigned Vulnerability | LinkedIn | GitHub |
+|---|---|---|---|
+| **Abanoub Ebid Thapt** (Team Leader) | Path Traversal & IDOR/BOLA | [LinkedIn](https://www.linkedin.com/in/abanoub-ebid-b2a04b230/) | [GitHub](https://github.com/abanoubebid) |
+| **Mina Nabil Shokry Habib** | SQL Injection (SQLi) | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
+| **Sayed Ahmed Mohamed Sayed** | Cross-Site Scripting (XSS) | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
+| **Rola Refaat Eldaba** | Cross-Site Request Forgery (CSRF) | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
+| **Samir Samir Eid Rady** | Server-Side Request Forgery (SSRF) | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
+| **Ola Ayman Shoukry Abdelsalam** | File Upload Vulnerabilities | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
+
+## Individual Testing Workflow
+
+Each member independently performs the following activities for their assigned vulnerability:
+
+1. Understand the vulnerability and its potential impact.
+2. Identify relevant application functionality and endpoints.
+3. Perform controlled security tests within the authorized lab.
+4. Validate suspected vulnerabilities and collect reproducible evidence.
+5. Document the testing process and results.
+6. Recommend remediation measures.
 
 ## Repository Structure
 
 | Directory | Description |
 |---|---|
-| [Week 1](./Week%20%271%27/) | Project materials and initial testing activities |
-| [Week 2](./Week%20%272%27/) | Project materials and vulnerability testing |
-| [Week 3](./Week%20%273%27/) | Project materials and application/API security testing |
-| [Week 4](./Week%20%274%27/) | Project materials, reporting, and retesting |
-| [Templates](./templetes/) | Testing workpaper and documentation templates |
-
-## Testing Workflow
-
-1. Review the assigned vulnerability class and relevant application functionality.
-2. Identify potential attack surfaces and applicable test cases.
-3. Perform controlled tests within the authorized lab.
-4. Validate findings and collect reproducible evidence.
-5. Document the impact, affected components, and remediation recommendations.
-6. Submit findings for review and consolidation into the final report.
+| [`Week '1'`](./Week%20%271%27/) | Week 1 project materials |
+| [`Week '2'`](./Week%20%272%27/) | Week 2 project materials |
+| [`Week '3'`](./Week%20%273%27/) | Week 3 project materials |
+| [`Week '4'`](./Week%20%274%27/) | Week 4 project materials |
+| [`templetes`](./templetes/) | Project templates and documentation resources |
 
 ## Tools
 
-- **Burp Suite** — HTTP traffic analysis and web security testing.
-- **Web Browser** — Application interaction and manual verification.
-- **OWASP Juice Shop** — Intentionally vulnerable assessment target.
-- **Docker** — Local lab deployment.
-- **Git & GitHub** — Version control and project collaboration.
+- **Burp Suite** — HTTP traffic inspection and web security testing.
+- **Web Browser** — Application interaction and verification.
+- **OWASP Juice Shop** — Intentionally vulnerable testing target.
+- **Docker** — Local lab environment.
+- **Git & GitHub** — Version control and collaboration.
 
 ## Deliverables
 
-- Application Map
-- Test Plan
 - Individual Testing Workpapers
-- Validated Vulnerability Findings & Evidence
+- Vulnerability Findings and Evidence
+- Reproducible Test Cases
 - API Security Testing Results
-- Consolidated Penetration Testing Report
-- Remediation & Retesting Checklist
+- Remediation Recommendations
+- Final Penetration Testing Report
 
 ## Scope & Authorization
 
-All testing is restricted to the authorized local OWASP Juice Shop lab. No external systems or third-party applications may be tested without explicit authorization.
+All security testing is restricted to the authorized OWASP Juice Shop lab environment. No external systems may be tested without explicit authorization.
 
 ## Disclaimer
 
-This project is conducted for educational purposes in an authorized lab environment. Findings and remediation status are documented as testing progresses and results are validated.
+This project is conducted for educational purposes in an authorized lab environment. Findings are documented as they are tested and validated.
