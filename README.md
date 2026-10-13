@@ -17,9 +17,9 @@ Each team member is responsible for testing an assigned vulnerability, documenti
 | Team Member | Assigned Vulnerability | LinkedIn | GitHub |
 |---|---|---|---|
 | **Abanoub Ebid Thapt** (Team Leader) | Path Traversal & IDOR/BOLA | [LinkedIn](https://www.linkedin.com/in/abanoub-ebid-b2a04b230/) | [GitHub](https://github.com/abanoubebid) |
-| **Mina Nabil Shokry Habib** | SQL Injection (SQLi) | [LinkedIn](www.linkedin.com/in/mina-nabil24) | [GitHub](https://github.com/Mina-nabil-1224) |
+| **Mina Nabil Shokry Habib** | SQL Injection (SQLi) | [LinkedIn](https://www.linkedin.com/in/mina-nabil24/) | [GitHub](https://github.com/Mina-nabil-1224) |
 | **Sayed Ahmed Mohamed Sayed** | Cross-Site Scripting (XSS) | [LinkedIn](https://www.linkedin.com/in/sayed-ahmed-sec) | [GitHub](https://github.com/Sayed-Sec) |
-| **Samir Samir Eid Rady** | Server-Side Request Forgery (SSRF) | [LinkedIn](www.linkedin.com/in/samir--samir-) | [GitHub](https://github.com/samir112-Elnab) |
+| **Samir Samir Eid Rady** | Server-Side Request Forgery (SSRF) | [LinkedIn](https://www.linkedin.com/in/samir--samir-/) | [GitHub](https://github.com/samir112-Elnab) |
 | **Ola Ayman Shoukry Abdelsalam** | File Upload Vulnerabilities | [LinkedIn](https://www.linkedin.com/in/ola-ayman-07934a297?utm_source=share_via&utm_content=profile&utm_medium=member_android) | [GitHub](https://github.com/olaayman1) |
 | **Rola Refaat Eldaba** | Cross-Site Request Forgery (CSRF) | [LinkedIn](https://www.linkedin.com/in/rola-refaat-562179291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) | [GitHub](https://github.com/rolarefaat456) |
 
