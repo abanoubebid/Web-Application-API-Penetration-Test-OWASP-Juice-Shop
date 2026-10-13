@@ -18,6 +18,8 @@ A collaborative security testing project focused on identifying, validating, and
 
 Each member independently tests an assigned vulnerability and documents the methodology, evidence, impact, and recommended remediation.
 
+## Team Members
+
 | Team Member | Assigned Vulnerability | Profiles |
 |---|---|---|
 | **Abanoub Ebid Thapt** · Team Leader | Path Traversal · IDOR/BOLA | [LinkedIn](https://www.linkedin.com/in/abanoub-ebid-b2a04b230/) · [GitHub](https://github.com/abanoubebid) |
@@ -26,7 +28,6 @@ Each member independently tests an assigned vulnerability and documents the meth
 | **Samir Samir Eid Rady** | Server-Side Request Forgery (SSRF) | [LinkedIn](https://www.linkedin.com/in/samir--samir-/) · [GitHub](https://github.com/samir112-Elnab) |
 | **Ola Ayman Shoukry Abdelsalam** | File Upload Vulnerabilities | [LinkedIn](https://www.linkedin.com/in/ola-ayman-07934a297/) · [GitHub](https://github.com/olaayman1) |
 | **Rola Refaat Eldaba** | Cross-Site Request Forgery (CSRF) | [LinkedIn](https://www.linkedin.com/in/rola-refaat-562179291/) · [GitHub](https://github.com/rolarefaat456) |
-
 ## Testing Workflow
 
 Each team member follows an individual testing process:
