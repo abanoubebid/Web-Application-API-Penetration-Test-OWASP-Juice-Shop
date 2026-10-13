@@ -54,7 +54,7 @@ Testing will be limited to the authorized OWASP Juice Shop lab environment. No s
 
 ## Team
 
-- **Abanoub Ebid Thapt**
+- **Abanoub Ebid Thapt(Team Leader)**
 - **Mina Nabil Shokry Habib**
 - **Sayed Ahmed Mohamed Sayed**
 - **Samir Samir Eid Rady**
