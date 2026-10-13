@@ -1,62 +1,72 @@
-# web-api-penetration-test
+# Web Application & API Penetration Testing
 
-Web Application & API Penetration Testing - Team Project
+**Team Security Assessment Project | OWASP Juice Shop**
 
-## Project Objective
+A collaborative security assessment focused on identifying, validating, and documenting web application and API vulnerabilities in an authorized testing environment.
 
-To assess the security of a web application and its APIs in an authorized testing environment, identify vulnerabilities, collect evidence, and recommend security fixes.
+## Project Overview
 
-## Target Lab
+The objective of this project is to assess the security of OWASP Juice Shop, investigate assigned vulnerability classes, collect reproducible evidence, and provide practical remediation recommendations.
 
-**OWASP Juice Shop** (local Docker instance)
+- **Target:** OWASP Juice Shop
+- **Environment:** Local Docker Lab
+- **Assessment Type:** Web Application & API Penetration Testing
+- **Documentation:** Individual Testing Workpapers and Consolidated Report
 
-Testing is limited to this authorized lab environment only.
+## Team & Responsibilities
 
-## Team & Vulnerability Assignments
+Each team member is responsible for testing an assigned vulnerability class, documenting the methodology and evidence, and submitting validated findings for inclusion in the final report.
 
-| # | Vulnerability | Owner |
-|---|---|---|
-| 1 | SQL Injection (SQLi) | **Mina Nabil Shokry Habib** |
-| 2 | Cross-Site Scripting (XSS) | **Sayed Ahmed Mohamed Sayed** |
-| 3 | Cross-Site Request Forgery (CSRF) | **Rola Refaat Eldaba** |
-| 4 | Server-Side Request Forgery (SSRF) | **Samir Samir Eid Rady** |
-| 5 | File Upload Vulnerabilities | **Ola Ayman Shoukry Abdelsalam** |
-| 6 | Path Traversal & IDOR/BOLA | **Abanoub Ebid Thapt** |
+| # | Vulnerability | Assigned To | LinkedIn | GitHub |
+|---|---|---|---|---|
+| 1 | SQL Injection (SQLi) | Mina Nabil Shokry Habib | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
+| 2 | Cross-Site Scripting (XSS) | Sayed Ahmed Mohamed Sayed | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
+| 3 | Cross-Site Request Forgery (CSRF) | Rola Refaat Eldaba | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
+| 4 | Server-Side Request Forgery (SSRF) | Samir Samir Eid Rady | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
+| 5 | File Upload Vulnerabilities | Ola Ayman Shoukry Abdelsalam | [LinkedIn](LINKEDIN_URL) | [GitHub](GITHUB_URL) |
+| 6 | Path Traversal & IDOR/BOLA | Abanoub Ebid Thapt (Team Leader) | [LinkedIn](https://www.linkedin.com/in/abanoub-ebid-b2a04b230/) | [GitHub](https://github.com/abanoubebid) |
 
-Each member tests their assigned vulnerability class across the lab, documents findings using the team's Individual Testing Workpaper template, and submits evidence for review before it is added to the final report.
+## Repository Structure
 
-## Testing Schedule
+| Directory | Description |
+|---|---|
+| [Week 1](./Week%20%271%27/) | Project materials and initial testing activities |
+| [Week 2](./Week%20%272%27/) | Project materials and vulnerability testing |
+| [Week 3](./Week%20%273%27/) | Project materials and application/API security testing |
+| [Week 4](./Week%20%274%27/) | Project materials, reporting, and retesting |
+| [Templates](./templetes/) | Testing workpaper and documentation templates |
 
-- **Week 1:** Web Fundamentals & Burp Suite Setup
-- **Week 2:** Input-Based Vulnerabilities
-- **Week 3:** Authentication, Session, Access Control & API Testing
-- **Week 4:** Attack Chaining, Reporting & Retesting
+## Testing Workflow
+
+1. Review the assigned vulnerability class and relevant application functionality.
+2. Identify potential attack surfaces and applicable test cases.
+3. Perform controlled tests within the authorized lab.
+4. Validate findings and collect reproducible evidence.
+5. Document the impact, affected components, and remediation recommendations.
+6. Submit findings for review and consolidation into the final report.
 
 ## Tools
 
-- Burp Suite
-- Web Browser
-- GitHub
-- OWASP Juice Shop
-
-## Scope
-
-Testing will be limited to the authorized OWASP Juice Shop lab environment. No system outside this lab may be tested.
+- **Burp Suite** — HTTP traffic analysis and web security testing.
+- **Web Browser** — Application interaction and manual verification.
+- **OWASP Juice Shop** — Intentionally vulnerable assessment target.
+- **Docker** — Local lab deployment.
+- **Git & GitHub** — Version control and project collaboration.
 
 ## Deliverables
 
 - Application Map
 - Test Plan
-- Vulnerability Findings & Evidence (per owner, per vulnerability class)
-- API Testing Results
-- Final Penetration Testing Report
-- Remediation & Retest Checklist
+- Individual Testing Workpapers
+- Validated Vulnerability Findings & Evidence
+- API Security Testing Results
+- Consolidated Penetration Testing Report
+- Remediation & Retesting Checklist
 
-## Team
+## Scope & Authorization
 
-- **Abanoub Ebid Thapt (Team Leader)**
-- **Mina Nabil Shokry Habib**
-- **Sayed Ahmed Mohamed Sayed**
-- **Samir Samir Eid Rady**
-- **Rola Refaat Eldaba**
-- **Ola Ayman Shoukry Abdelsalam**
+All testing is restricted to the authorized local OWASP Juice Shop lab. No external systems or third-party applications may be tested without explicit authorization.
+
+## Disclaimer
+
+This project is conducted for educational purposes in an authorized lab environment. Findings and remediation status are documented as testing progresses and results are validated.
