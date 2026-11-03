@@ -25,24 +25,26 @@ The endpoint `PUT /rest/products/{id}/reviews` accepts the review author from th
 
 ## Steps to Reproduce
 
-### 1. Post a legitimate review as the attacker
-
-Logged in as the attacker, a review is sent to product 1. The `author` field matches the token's account (`X-User-Email: attacker@gmail.com`) and the server replies `201 Created` with `{"status":"success"}`.
-
-![Attacker legitimate review request](images/01-attacker-legit-review-request.png)
-
-### 2. Post a legitimate review as the victim
-
-The same request is sent with the victim's token, `author` set to `victem@gmail.com`, and message `hiii`. The server again replies `201 Created`.
-
-![Victim legitimate review request](images/02-victim-legit-review-request.png)
-
-### 3. Check how reviews appear in the product dialog
+### 1. Check how reviews appear in the product dialog
 
 In the browser (two PwnFox containers), the product 1 reviews list shows each review labelled with the email from the `author` field.
 
-![Attacker review shown in the UI](images/03-attacker-review-in-ui.png)
-![Victim review shown in the UI](images/04-victim-review-in-ui.png)
+![Attacker review shown in the UI](images/01-attacker-review-in-ui.png)
+![Victim review shown in the UI](images/02-victim-review-in-ui.png)
+
+
+### 2. Post a legitimate review as the attacker
+
+Logged in as the attacker, a review is sent to product 1. The `author` field matches the token's account (`X-User-Email: attacker@gmail.com`) and the server replies `201 Created` with `{"status":"success"}`.
+
+![Attacker legitimate review request](images/03-attacker-legit-review-request.png)
+
+### 3. Post a legitimate review as the victim
+
+The same request is sent with the victim's token, `author` set to `victem@gmail.com`, and message `hiii`. The server again replies `201 Created`.
+
+![Victim legitimate review request](images/04-victim-legit-review-request.png)
+
 
 ### 4. Send a forged review
 
