@@ -105,10 +105,3 @@ Any authenticated user, regardless of their own account id, can create feedback 
 For educational purposes only, performed on a local lab environment.
 
 ---
-
-## ملاحظات للفريق (مش جزء من التقرير الرسمي)
-
-1. **Tokens ظاهرة في الصور**: الـ 3 screenshots اللي اتبعتت فيها الـ JWT Bearer token والـ Cookie كاملين وغير مغطيين. اتحطوا في الفولدر زي ما هم. لو عايزين نسخة نضيفة للرفع العلني، غطوا سطور `Authorization` و `Cookie` في الصور الأصلية وابعتولي بدالها.
-2. **تسمية الحسابات معكوسة فعليًا**: الحساب اسمه `attacker@gmail.com` هو اللي اتزوّر باسمه (الضحية الفعلية)، والحساب اسمه `victem@gmail.com` هو اللي نفّذ الهجوم. اتحطت ملاحظة في جدول الـ Test Accounts لكن تأكدوا إنها واضحة لأي حد هيراجع التقرير.
-3. **CVSS مقترح** (محتاج تأكيدكم): `AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N` → Base Score **4.3 (Medium)** — Network vector، تعقيد منخفض، لازم تكون عامل Login (أي يوزر عادي، مش admin)، مفيش تفاعل من المستخدم، مفيش تأثير على الـ confidentiality أو الـ availability، وتأثير Low على الـ Integrity (تزوير بيانات منسوبة لحساب تاني). لو عايزين severity أعلى (مثلاً لو فيه استغلال تاني بيوصل لتأثير أكبر زي privilege escalation)، قولولي.
-4. **مفيش صورة GET بعد الإنشاء** — مش لازمة هنا لأن الـ response بتاع الـ POST نفسه بيرجع الـ object كامل ومعاه الـ UserId المزوّر، فده دليل كافي لوحده.
