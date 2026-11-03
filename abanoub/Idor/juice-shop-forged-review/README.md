@@ -27,9 +27,12 @@ The endpoint `PUT /rest/products/{id}/reviews` accepts the review author from th
 
 ### 1. Check how reviews appear in the product dialog
 
-In the browser (two PwnFox containers), the product 1 reviews list shows each review labelled with the email from the `author` field.
+In the browser (two PwnFox containers), the product 1 reviews list shows each review labelled with the email.
+#### attacker
 
 ![Attacker review shown in the UI](images/01-attacker-review-in-ui.png)
+
+#### victim
 ![Victim review shown in the UI](images/02-victim-review-in-ui.png)
 
 
